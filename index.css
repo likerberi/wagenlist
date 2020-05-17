@@ -1,0 +1,33 @@
+.container {
+  padding: 20;
+  justify-content: center;
+  background-color: #87BB88;
+  padding-top: 25;
+}
+
+.neumorphism {
+  margin: 24;
+  font-size: 18;
+  font-weight: 'bold';
+  text-align: 'center';
+  color: white;
+}
+
+.morph {
+  border-radius: 10;
+  border-width: 1;
+  background-color: #87BB88;
+  border-color: color(#87BB88);
+}
+
+.morphTop {
+  border-radius: 10;
+  box-shadow:  20px 20px 60px #489dcf, 
+    -20px -20px 60px #62d5ff;
+}
+
+.morphBottom {
+  border-radius: 10;
+  box-shadow:  20px 20px 60px #489dcf, 
+    -20px -20px 60px #62d5ff;
+}
