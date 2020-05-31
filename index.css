@@ -54,6 +54,7 @@ body {
 .cards .row .col:not(:last-child) {
 padding-right: 20px;
 }
+
 .cards .card {
 background: transparent;
       box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2),
@@ -67,4 +68,18 @@ background: transparent;
   width: 100%;
   max-width: none;
   padding: 0 20px;
+}
+
+.list {
+  border-radius: 99px;
+  background: #205c98;
+  box-shadow:  37px 37px 65px #1a4b7d, 
+              -37px -37px 65px #266db3;
+}
+
+.list.listBtn {
+  border-radius: 27px;
+  background: linear-gradient(145deg, #2262a3, #1d5389);
+  box-shadow:  17px 17px 34px #1a4b7d, 
+             -17px -17px 34px #266db3;
 }
